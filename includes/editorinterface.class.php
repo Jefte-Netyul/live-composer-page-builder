@@ -179,11 +179,6 @@ class DSLC_EditorInterface {
 			return;
 		}
 
-		// Hide LC button on front.
-		if ( ! dslc_can_edit_in_lc( get_post_type() ) ) {
-			return;
-		}
-
 		/**
 		 * Is current post type using LC templates system?
 		 */
